@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    <!-- TODO: Update  fragment detail-->
+    <include layout="@layout/toolbar_customize_drink"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coffeetek"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+
+                    <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Bold
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Macciato"
+                        android:textSize="25sp"
+                        android:textColor="#2d140d"/>
+
+                    <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Bold
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="36 EGP"
+                        android:textSize="15sp"
+                        android:textColor="#383537"/>
+                </LinearLayout>
+
+
+                <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginTop="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_marginRight="4dp"
+                    android:textColor="#383537"
+                    android:textSize="20sp"/>
+                <ImageView
+                    android:id="@+id/remove"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_remove"/>
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_add"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#8c746a"/>
+
+
+            <LinearLayout
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp">
+
+                <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Size"
+                    android:textSize="18sp"
+                    android:textColor="#443636"/>
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_coffeecup"/>
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_coffee"/>
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_marginLeft="17dp"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_fill_7"/>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#8c746a"/>
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#00000000"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp">
+
+                <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sugar"
+                    android:textSize="18sp"
+                    android:textColor="#443636"/>
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="90dp"
+                    android:src="@drawable/ic_group_4_copy_4" />
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_marginLeft="35dp"
+                    android:layout_gravity="center"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_group_4_copy"/>
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_group_4_copy_2"/>
+                <ImageView
+                    android:id="@+id/img7"
+                    android:layout_marginLeft="21dp"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_group_4_copy_3"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#8c746a"/>
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#00000000"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp">
+
+                <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Additions"
+                    android:textSize="18sp"
+                    android:textColor="#443636"/>
+
+                <ImageView
+                    android:id="@+id/img8"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="62dp"
+                    android:src="@drawable/ic_fill_4" />
+                <ImageView
+                    android:id="@+id/img9"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_fill_8"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#8c746a"/>
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total:"
+                    android:textSize="30sp"
+                    android:textColor="#8c746a"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="4dp"
+                        android:text="42"
+                        android:textSize="27sp"
+                        android:textColor="#2d140d"/>
+
+                    <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                        android:layout_gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EGP"
+                        android:textSize="18sp"
+                        android:textColor="#2d140d"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.kelompok3.trian.pmo2_rps1.customfonts.MyTextView_Roboto_Regular
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to cart"
+                android:textSize="17sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rect1"/>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

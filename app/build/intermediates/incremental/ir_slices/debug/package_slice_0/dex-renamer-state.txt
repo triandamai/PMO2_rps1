@@ -1,0 +1,4 @@
+#Thu Nov 08 21:37:35 PST 2018
+base.0=C\:\\Users\\Nurizkillah\\Videos\\PMO 2\\frag5\\PMO2_rps1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

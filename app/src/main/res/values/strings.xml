@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PMO2_rps1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_list">Hello blank fragment_list</string>
+    <string name="hello_blank_fragment_detail">Hello blank fragment_detail</string>
+</resources>
